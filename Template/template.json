@@ -41,11 +41,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Adguard/Workdir",
+          "bind": "/volume1/docker/Adguard/Workdir",
           "container": "/opt/adguardhome/work"
         },
         {
-          "bind": "/portainer/Files/AppData/Adguard/Conf",
+          "bind": "/volume1/docker/Adguard/Conf",
           "container": "/opt/adguardhome/conf"
         }
       ]
